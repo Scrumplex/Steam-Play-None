@@ -16,12 +16,14 @@ But you might have issues with that, so this compatibility-tool allows you to ru
 
 # Steam-Play-None Verified
 
-| Game      | Valve's recommendation         | Proton                | Steam Linux Runtime              | Steam-Play-None    |
-| --------- | ------------------------------ | --------------------- | -------------------------------- | ------------------ |
-| CrossCode | Proton 7.0-3 (`proton-stable`) | :x:, heavy stuttering | :x:, doesn't launch<sup>1</sup> | :heavy_check_mark: |
+| Game                     | Valve's recommendation         | Proton                | Steam Linux Runtime              | Steam-Play-None    |
+| ------------------------ | ------------------------------ | --------------------- | -------------------------------- | ------------------ |
+| [CrossCode][p-crosscode] | Proton 7.0-3 (`proton-stable`) | :x:, heavy stuttering | :x:, doesn't launch<sup>1</sup> | :heavy_check_mark: |
 
 
 <sup>1</sup>: It can be made to launch, but will not have working controller input. see https://github.com/ValveSoftware/Proton/issues/2818#issuecomment-1192329628
 
 # License
 This work is licensed under CC0. See [LICENSE](LICENSE):
+
+[p-crosscode]: https://www.protondb.com/app/368340/
