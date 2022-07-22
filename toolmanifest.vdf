@@ -1,0 +1,6 @@
+"manifest"
+{
+  "version" "2"
+  "commandline" "/launch.sh %verb%"
+  "use_sessions" "1"
+}
