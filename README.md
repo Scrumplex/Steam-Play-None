@@ -4,6 +4,17 @@ Run Linux games as is, even if Valve recommends Proton for a game.
 
 # Installation
 
+
+## Install using ProtonUp-Qt
+
+1. Download [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/) (You can find it in your app store via Flathub or click the link to download an AppImage)
+2. Enable advanced mode (press About > Enable advanced mode)
+3. Press `Add version` in the main dialog
+4. Select `Steam-Play-None` under `Compatibility tool` and press `Install`
+5. Set the compatibility-tool for the game in your library to `Steam-Play-None`
+
+## Install manually
+
 - Download this repository as an archive file: [Download](https://github.com/Scrumplex/Steam-Play-None/archive/refs/heads/main.tar.gz)
 - Extract it to `~/.steam/steam/compatibilitytools.d/`
 - Set the compatibility-tool for the game in your library to "None"
