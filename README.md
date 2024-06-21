@@ -16,6 +16,7 @@ Run Linux games as is, even if Valve recommends Proton for a game.
 ## Install manually
 
 - Download this repository as an archive file: [Download](https://github.com/Scrumplex/Steam-Play-None/archive/refs/heads/main.tar.gz)
+- Create the directory `~/.steam/steam/compatibilitytools.d` if it doesn't exist yet
 - Extract it to `~/.steam/steam/compatibilitytools.d/`
 - Set the compatibility-tool for the game in your library to "None"
 
