@@ -1,2 +1,2 @@
 #!/bin/bash
-exec "${@:2}"
+exec "$STEAM_RUNTIME/scripts/switch-runtime.sh" --runtime="" -- "${@:2}"
